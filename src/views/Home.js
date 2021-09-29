@@ -33,6 +33,10 @@ const products = [
   
 
 class HomeScreen extends React.Component {
+    handleClick = (id)=>{
+        this.props.addToCart(id); 
+    }
+
     render() {
         return (
             <ScrollView
