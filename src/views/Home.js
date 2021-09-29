@@ -8,22 +8,26 @@ const products = [
     {
       name: 'Khaki Suede Polish Work Boots',
       price: 149.99,
-      img: `${BASE_URI}/shoe1.png`
+      img: `${BASE_URI}/shoe1.png`,
+      description: 'Some description about these boots. Wow these are some nice boots. You should buy it. Information about size and material.'
     },
     {
       name: 'Camo Fang Backpack Jungle',
       price: 39.99,
-      img: `${BASE_URI}/jacket1.png`
+      img: `${BASE_URI}/jacket1.png`,
+      description: 'Some description about this jacket. Wow this is a nice jacket. You should buy it. Information about size and material.'
     },
     {
       name: 'Parka and Quilted Liner Jacket',
       price: 49.99,
-      img: `${BASE_URI}/jacket2.png`
+      img: `${BASE_URI}/jacket2.png`,
+      description: 'Some description about this jacket. Wow this is a nice jacket. You should buy it. Information about size and material.'
     },
     {
       name: 'Cotton Black Cap',
       price: 12.99,
-      img: `${BASE_URI}/hat1.png`
+      img: `${BASE_URI}/hat1.png`,
+      description: 'Some description about this hat. Wow this is a nice hat. You should buy it. Information about size and material.'
     },
 ];
   

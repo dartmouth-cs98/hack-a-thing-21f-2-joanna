@@ -28,7 +28,7 @@ class Product extends React.Component {
                 <Button
                     type="clear"
                     title='Buy now'
-                    onPress={() => this.props.navigation.navigate('Details')} 
+                    onPress={() => this.props.navigation.navigate('Details', {product: this.props.product})} 
                 />
             </Card>
         );
